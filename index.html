@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <title>ImgsDropDown</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  <body>
+    <h1 id="main-heading">What's Up Geniuses</h1>
+    <p>
+      <select id="sel" onchange="toggle()">
+        <option value="0" selected>Main</option>
+        <option value="1">Richmond</option>
+        <option value="2">Richmond2</option>
+        <option value="3">Oakland</option>
+        <option value="4">Passion1</option>
+        <option value="5">Passion2</option>
+        <option value="6">Passion3</option>
+      </select>
+    </p>
+
+    <button id="loopButton" type="button" onclick="loopImgs()">
+      Loop
+    </button>
+
+    <div id="main">
+
+      <img class="my-imgs" src="https://www.hiddengeniusproject.org/wp-content/uploads/2017/12/8S1A0354-1000.jpg" />
+
+    </div>
+
+
+    <div id="Richmond" style="display:none;">
+
+      <img class="my-imgs" src="https://richmondstandard.com/wp-content/uploads/2020/06/103435173_546941082857515_8796074417806361809_n-696x530.jpg" />
+
+    </div>
+
+    <div id="Richmond2" style="display:none;">
+
+      <img class="my-imgs" src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Point_Richmond%2C_Richmond%2C_California.jpg" />
+
+    </div>
+
+    <div id="Oakland" style="display:none;">
+
+      <img class="my-imgs" src="https://s.hdnux.com/photos/40/73/42/8632511/3/rawImage.jpg" />
+
+    </div>
+
+    <div id="Passion1" style="display:none">
+      <img class="my-imgs" src="https://i2.wp.com/www.geoawesomeness.com/wp-content/uploads/2017/09/Coding-Geospatial.jpg?resize=1152%2C768&ssl=1">
+    </div>
+
+    <div id="Passion2" style="display:none">
+      <img class="my-imgs" src="https://bustingbrackets.com/wp-content/uploads/getty-images/2016/04/1193935675.jpeg">
+    </div>
+
+    <div id="Passion3" style="display:none">
+      <img class="my-imgs" src="https://dana.org/wp-content/uploads/2019/11/videogames-boffey-nov-2019.jpg">
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+
+</html>

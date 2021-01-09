@@ -1,0 +1,18 @@
+* {
+    width: 500px;
+  
+  
+  }
+  
+  #main {
+    display: block;
+    padding: 10px;
+    background: black;
+  }
+  
+  #loopButton {
+    display: block;
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  
